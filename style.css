@@ -7,9 +7,9 @@ body {
 #counter-bar-ext {
     margin: 0;
     padding: 0;
-    border: #000 solid 3px;
-    height: 150px;
-    width: 600px;
+    border: #000 solid 10px;
+    height: 110px;
+    width: 350px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -18,7 +18,7 @@ body {
 #counter-bar-ext #counter-bar-int {
     margin: 0;
     background-color: #b33;
-    height: 130px;
+    height: 108px;
     width: 0;
     transition: width 0.3s ease;
 }
