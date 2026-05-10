@@ -2,14 +2,24 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1.4rem;
+    color: #933;
 }
 
 #counter-bar-ext {
     margin: 0;
     padding: 0;
     border: #000 solid 10px;
-    height: 110px;
-    width: 350px;
+    height: 20vw;
+    width: 75vw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -17,8 +27,8 @@ body {
 
 #counter-bar-ext #counter-bar-int {
     margin: 0;
-    background-color: #b33;
-    height: 108px;
+    background-color: #933;
+    height: 20vw;
     width: 0;
     transition: width 0.3s ease;
 }

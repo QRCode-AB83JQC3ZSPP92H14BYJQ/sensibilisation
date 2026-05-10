@@ -14,7 +14,7 @@ function incrase () {
     let value = parseInt(counterBar.dataset.value) || 0;
     value++;
     counterBar.dataset.value = value;
-    counterBar.style.width = (value * 350 / nbrOfIncrase) + "px";
+    counterBar.style.width = (value * 0.75 * window.innerWidth / nbrOfIncrase) + "px";
 }
 
 chargeData();
