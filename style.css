@@ -19,5 +19,6 @@ body {
     margin: 0;
     background-color: #b33;
     height: 130px;
-    width: 150px * attr(data-value);
+    width: 0;
+    transition: width 0.3s ease;
 }
