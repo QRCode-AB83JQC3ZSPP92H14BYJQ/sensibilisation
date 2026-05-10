@@ -12,6 +12,7 @@ p {
     font-family: Arial, sans-serif;
     font-size: 1.4rem;
     color: #933;
+    width: 75vw;
 }
 
 #counter-bar-ext {
