@@ -4,7 +4,7 @@ body {
     overflow: hidden;
 }
 
-.counter-bar-ext {
+#counter-bar-ext {
     margin: 0;
     padding: 0;
     border: #000 solid 3px;
@@ -15,7 +15,7 @@ body {
     justify-content: flex-start;
 }
 
-.counter-bar-ext .counter-bar-int {
+#counter-bar-ext #counter-bar-int {
     margin: 0;
     background-color: #b33;
     height: 130px;
