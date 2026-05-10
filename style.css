@@ -9,11 +9,10 @@ body {
 }
 
 p {
-    margin: 20px;
+    margin: 40px;
     font-family: Arial, sans-serif;
     font-size: 1.4rem;
     color: #c33;
-    /*display: block;*/
 }
 
 #counter-bar-ext {
