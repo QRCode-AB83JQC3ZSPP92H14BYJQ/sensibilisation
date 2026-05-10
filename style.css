@@ -13,6 +13,7 @@ p {
     font-family: Arial, sans-serif;
     font-size: 1.4rem;
     color: #c33;
+    justify-self: center;
 }
 
 #counter-bar-ext {
