@@ -3,6 +3,7 @@ body {
     padding: 0;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -12,7 +13,7 @@ p {
     font-family: Arial, sans-serif;
     font-size: 1.4rem;
     color: #933;
-    display: block;
+    /*display: block;*/
 }
 
 #counter-bar-ext {
