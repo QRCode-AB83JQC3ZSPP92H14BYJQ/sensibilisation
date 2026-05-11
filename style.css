@@ -8,10 +8,18 @@ body {
     align-items: center;
 }
 
+h1 {
+    margin: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #c33;
+    justify-self: center;
+}
+
 p {
     margin: 40px;
-    font-family: Arial, sans-serif;
-    font-size: 1.4rem;
+    font-famaily: Arial, sans-serif;
+    font-size: 1rem;
     color: #c33;
     justify-self: center;
 }

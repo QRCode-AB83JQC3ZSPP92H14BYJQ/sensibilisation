@@ -27,14 +27,22 @@ function printAlert () {
     let text = "";
 
     if (confirm("Votre appareil a été piraté. Voulez-vous activer la protection anti-virus ?")) {
-        text = "Haha, j'ai réussi à vous faire appuyer sur le bouton !\n\nVous avez de la chance que je ne sois pas un vrai pirate informatique, sans quoi toutes vos données auraient déjà été volées !\n\nLa prochaine fois, réfléchissez à deux fois avant de scanner un QR Code inconnu.";
+        text = "Haha, j'ai réussi à vous faire appuyer sur le bouton !\n\nVous avez de la chance que je ne sois pas un vrai pirate informatique, sans quoi toutes vos données auraient déjà été volées !";
     } else {
-        text = "Vous n'avez pas cliqué ? Me voilà étonné.\n\nDans tous les cas, sachez que votre appareil n'a pas été piraté.\n\nCependant, j'ai tout de même réussi à vous envoyer sur ce site web sans que vous n'ayez eu votre mot à dire. La prochaine fois, réfléchissez à deux fois avant de scanner un QR Code inconnu !";
+        text = "Vous n'avez pas cliqué ? Me voilà étonné.\n\nDans tous les cas, sachez que votre appareil n'a pas été piraté.\n\nCependant, j'ai tout de même réussi à vous envoyer sur ce site web sans que vous n'ayez eu votre mot à dire.";
     }
+
+    const h1 = document.createElement("h1");
+    document.body.appendChild(h1);
+    h1.innerText = text;
+
+    const separateur = document.createElement("div");
+    separateur.style.height = "75vh";
+    document.body.appendChild(separateur);
 
     const p = document.createElement("p");
     document.body.appendChild(p);
-    p.innerText = text;
+    p.innerText = "";
 }
 
 runIncrements().then(() => setTimeout(printAlert, 2009));
