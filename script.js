@@ -1,7 +1,7 @@
 const counter = document.querySelector("#counter-bar-ext");
 const counterBar = counter.querySelector("#counter-bar-int");
 
-const basicSleepTime = 1250;
+const basicSleepTime = 1500;
 const nbrOfIncrase = 5;
 
 function incrase () {
@@ -37,7 +37,7 @@ function printAlert () {
     h1.innerText = text;
 
     const separateur = document.createElement("div");
-    separateur.style.height = "75vh";
+    separateur.style.height = "120px";
     document.body.appendChild(separateur);
 
     const p = document.createElement("p");
